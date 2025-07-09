@@ -139,18 +139,8 @@ This project is licensed under the [MIT License](LICENSE).
 Pull requests are welcome! Feel free to fork this project and improve upon it.
 If you use this model in a published work or project, **please give credit**.
 
----
 
-```
 
----
 
-### 🔁 What to Do Next
-
-- 🔄 Replace `./Motion/dc_motor_motion.gif` with your actual GIF file path  
-- 📦 Upload all CAD files & folders in the structure shown  
-- 📝 Add a `LICENSE` file (MIT recommended)  
-- 🌐 Add GitHub Pages if you want a visual portfolio  
-- 📽️ Optional: Embed YouTube/Vimeo if you host your animation externally
 
 
