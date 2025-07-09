@@ -1,110 +1,105 @@
 
-<h1 align="center">🔩 DC Motor Assembly – CAD Project</h1>
+# DC Motor Assembly (SOLIDWORKS 2025)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/SOLIDWORKS-2025-red?logo=solidworks&logoColor=white" />
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
-  <img src="https://img.shields.io/badge/Status-Completed-success" />
-</p>
-
-<p align="center">
-  <img src="dc_motor_exploded.jpg" alt="DC Motor Exploded View" width="600" />
-</p>
+This project contains a complete 3D model of a **DC Motor Assembly** designed using **SOLIDWORKS 2025**. It includes all component files, an exploded view, a motion simulation, and a Bill of Materials.
 
 ---
 
-## 📽️ Motion Preview
+## 🧠 What is a DC Motor?
 
-> 🎬 Motion simulation of the DC Motor  
-> *(GIF preview below — real animation included in MP4)*
+A **DC (Direct Current) motor** is an electromechanical device that converts electrical energy into mechanical rotational motion. It operates on the principle of Lorentz force: when a current-carrying conductor is placed in a magnetic field, it experiences a force.
 
-<p align="center">
-  <img src="motion.gif" alt="DC Motor Motion GIF" width="500"/>
-</p>
+DC motors are widely used in robotics, small machinery, toys, and mechatronic systems due to their simplicity and controllability.
 
 ---
 
-## 🧾 Overview
+## ⚙️ How It Works
 
-This project showcases a full **DC motor 3D CAD assembly**, created in **SOLIDWORKS 2025**, with individual components, motion simulation, exploded views, and bill of materials. Designed for mechanical education, simulation, and integration into robotic/mechatronic systems.
-
----
-
-## 📁 Files Included
-
-```
-
-dc\_motor\_assembly.sldasm     ← Main assembly
-part1.sldprt                 ← Rotor Housing
-part4.sldprt                 ← Back Cover
-part5.sldprt                 ← Main Housing
-part6.sldprt                 ← Brushes
-part7.sldprt                 ← Spacer
-part8.sldprt                 ← Bushing 1
-part9.sldprt                 ← Bushing 2
-part10.sldprt                ← Armature Core
-spur\_gear.sldprt             ← ISO Spur Gear
-dc\_motor\_assembly.slddrw     ← Technical drawing
-dc\_motor\_assembly.pdf        ← Exploded view + BOM (PDF)
-dc\_motor\_exploded.jpg        ← Preview image for GitHub
-dc\_motor\_motion.mp4          ← Motion simulation video
-motion.gif                   ← Motion preview (GIF)
-README.md                    ← This file
-
-````
+1. **Current** flows through the motor windings (armature).
+2. This creates an **electromagnetic field**.
+3. The field interacts with the **permanent magnets** or stator field, producing **torque** on the rotor.
+4. The **commutator** and **brushes** reverse the current at the correct time to maintain continuous rotation.
 
 ---
 
-## 🧩 Bill of Materials (BOM)
+## 🧩 Components and Their Roles
 
-| 🔢 Item | 🧩 Part No. | 📝 Description              | 🧱 Material        | 🔢 Qty |
-|--------:|-------------|-----------------------------|--------------------|--------:|
-| 1       | PART4       | Back Cover                  | ABS                | 1       |
-| 2       | PART8       | Bushing 1                   | IGLIDUR® P210      | 1       |
-| 3       | PART5       | Main Housing                | 1060 Alloy         | 1       |
-| 4       | PART1       | Rotor Housing               | —                  | 1       |
-| 5       | PART6       | Brushes                     | —                  | 2       |
-| 6       | PART7       | Spacer                      | Cast Alloy Steel   | 1       |
-| 7       | PART9       | Bushing 2 (shaft fixture)   | IGLIDUR® X         | 1       |
-| 8       | PART10      | Armature Core               | —                  | 1       |
-| 9       | Spur Gear   | ISO 0.4M 10T 20PA Gear      | Steel              | 1       |
+| Part        | Role                                                                 |
+|-------------|----------------------------------------------------------------------|
+| Rotor Housing (Part1) | Encases the rotating shaft and supports alignment            |
+| Back Cover (Part4)     | Seals the motor casing and often holds the rear bearing     |
+| Main Housing (Part5)   | Outer frame that supports the stator and entire structure   |
+| Brushes (Part6)        | Conduct current to the rotating commutator (not visible)    |
+| Spacer (Part7)         | Maintains precise spacing between internal components       |
+| Bushing 1 (Part8)      | Supports smooth shaft rotation at one end                   |
+| Bushing 2 (Part9)      | Additional shaft support and alignment                      |
+| Armature Core (Part10) | Rotating part with coils; produces torque                   |
+| Spur Gear              | Transfers torque from motor shaft to load                   |
 
 ---
 
-## 🚀 How to Use
+## 🧾 Files Included
 
-1. Clone or download this repository:
-   ```bash
-   git clone https://github.com/yourusername/dc-motor-assembly.git
-````
+- `Assem1.SLDASM` – Main assembly file  
+- `Part1.SLDPRT` to `Part10.SLDPRT` – All 3D components  
+- `Spur_Gear.SLDPRT` – Gear model  
+- `dc_motor_exploded.jpg` – Exploded view image  
+- `dc_motor_motion.mp4` – Motion simulation  
+- `motion.gif` – Short motion preview  
+- `dc_motor_assembly.slddrw` – Technical drawing  
+- `dc_motor_assembly.pdf` – Drawing and BOM in PDF  
+- `README.md` – Project documentation
 
-2. Open `dc_motor_assembly.sldasm` in **SOLIDWORKS 2025**.
-3. To preview motion:
+---
 
-   * Watch `dc_motor_motion.mp4`
-   * Or preview `motion.gif` directly here
-4. Refer to `dc_motor_assembly.pdf` or `.slddrw` for technical drawing and BOM.
+## 🖼 Preview
+
+![Exploded View](dc_motor_exploded.jpg)
+
+---
+
+## 🎞 Motion Preview
+
+![Motion](motion.gif)
+
+> Full video: `dc_motor_motion.mp4`
+
+---
+
+## 📝 Bill of Materials
+
+| Item | Description              | Material         | Qty |
+|------|--------------------------|------------------|-----|
+| 1    | Back Cover (PART4)       | ABS              | 1   |
+| 2    | Bushing 1 (PART8)        | IGLIDUR® P210    | 1   |
+| 3    | Main Housing (PART5)     | 1060 Alloy       | 1   |
+| 4    | Rotor Housing (PART1)    | —                | 1   |
+| 5    | Brushes (PART6)          | —                | 2   |
+| 6    | Spacer (PART7)           | Cast Alloy Steel | 1   |
+| 7    | Bushing 2 (PART9)        | IGLIDUR® X       | 1   |
+| 8    | Armature Core (PART10)   | —                | 1   |
+| 9    | Spur Gear                | Steel            | 1   |
+
+---
+
+## 🛠 Software Used
+
+- SOLIDWORKS 2025
 
 ---
 
 ## 👨‍💻 Author
 
-**Amir Souhail**
-📧 [amir.souhail@gmail.com](mailto:amir.souhail@gmail.com)
-🔬 R\&D Engineer @ EDGELab | AUV UTRACKER Project
+**Amir Souhail**  
+📧 amir.souhail@gmail.com  
+🔬 R&D Engineer @ EDGELab (UTRACKER AUV Project)
 
 ---
 
-## 📘 License
+## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 🙌 Contributions
-
-Pull requests and forks are welcome!
-If you find this model helpful for your project or coursework, credit is appreciated ❤️
-
+This project is available for educational and non-commercial use.
 ```
+
+---
 
