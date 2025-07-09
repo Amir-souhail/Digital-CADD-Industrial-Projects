@@ -19,7 +19,7 @@
 > *(Click the GIF to see it in action)*
 
 <p align="center">
-  <img src="assets/motion.gif" alt="DC Motor Motion" width="500"/>
+  <img src="assets/dc_motor_motion.gif" alt="DC Motor Motion" width="500"/>
 </p>
 
 ---
