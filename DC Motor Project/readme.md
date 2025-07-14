@@ -60,7 +60,7 @@ DC motors are widely used in robotics, small machinery, toys, and mechatronic sy
 
 ## 🎞 Motion Preview
 
-![Motion](motion.gif)
+![Motion](dc_motor_motion.gif)
 
 > Full video: `dc_motor_motion.mp4`
 
