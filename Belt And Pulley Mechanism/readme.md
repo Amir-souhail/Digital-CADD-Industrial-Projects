@@ -57,9 +57,9 @@ A **DC motor** drives the smaller pulley, which is connected via a **belt** to a
 
 ## 🎞️ Preview (Motion Study)
 
-> Add your animated GIF or MP4 below (optional)
 
-![Motion Preview](./motion%20study.gif)
+
+![Motion Preview](./Motion_Study.gif)
 
 ---
 
