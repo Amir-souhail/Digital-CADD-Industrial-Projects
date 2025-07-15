@@ -41,7 +41,7 @@ Gripper-Assembly/
 
 **✅ Final Assembly:**
 
-![Gripper Assembly](images/Gripper_Assembly.JPG)
+![Gripper Assembly](images/Gripper Assembly Figure.JPG)
 
 **🧩 Exploded View with BOM:**
 
