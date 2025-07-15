@@ -31,7 +31,7 @@ This repository contains the design and motion study of a compact mechanical gri
 
 ### ✅ Final Assembly
 `Gripper Assembly Figure.JPG` 
-![mechanical_gripper](./Gripper%20Assembly%20Figure.JPG)
+![mechanical gripper](./Gripper%20Assembly%20Figure.JPG)
 Rendered view of the complete gripper design in closed-jaw position.  
 
 ### 🧩 Exploded View
