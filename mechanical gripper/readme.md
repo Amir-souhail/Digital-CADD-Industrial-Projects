@@ -27,11 +27,7 @@ This repository contains the design and motion study of a compact mechanical gri
 | 10       | ISO 7380 – M3 × 12      | 3   | Button-head screws to fasten parts without protruding too much. |
 | 11       | ISO 4032 – M3 Nut       | 2   | Standard nuts used with M3 screws for firm mechanical locking. |
 
-Digital-CADD-Industrial-Projects/
-└── mechanical gripper/
-    ├── [all your gripper figures]
-    ├── Motion_Study.gif
-    └── README.md  ← (this is what we're generating now)
+
 
 
 ## 📸 Visuals (Located in `mechanical gripper/` Folder)
