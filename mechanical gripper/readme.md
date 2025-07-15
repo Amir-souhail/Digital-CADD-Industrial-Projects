@@ -27,36 +27,27 @@ This repository contains the design and motion study of a compact mechanical gri
 | 10       | ISO 7380 – M3 × 12      | 3   | Button-head screws to fasten parts without protruding too much. |
 | 11       | ISO 4032 – M3 Nut       | 2   | Standard nuts used with M3 screws for firm mechanical locking. |
 
-## 📸 Visuals
+## 📸 Visuals (Located in `mechanical gripper/` Folder)
 
-### ✅ Final Assembly
-`Gripper Assembly Figure.JPG` 
-![mechanical gripper](./Gripper%20Assembly%20Figure.JPG)
-Rendered view of the complete gripper design in closed-jaw position.  
+| Preview | Description |
+|--------|-------------|
+| `mechanical gripper/Gripper Assembly Figure.JPG` | Rendered view of the assembled gripper |
+| `mechanical gripper/Gripper Assembly Exploded Figure.JPG` | Exploded view with BOM and dimensions |
+| `mechanical gripper/Gripper Assembly.JPG` | Technical drawing of the assembly |
+| `mechanical gripper/Part1_GR.JPG` | Drawing of the link arms |
+| `mechanical gripper/Part2_GR.JPG` | Drawing of the gear |
+| `mechanical gripper/Part3_GR.JPG` | Drawing of the side plates |
+| `mechanical gripper/Part4_5_6_8_GR.JPG` | Combined drawing for base, bottom plate, spacers, and jaw |
+| `mechanical gripper/Part7_GR.JPG` | Drawing of the gripper pad |
+| `mechanical gripper/Motion_Study.gif` | Simulated motion study of the gripping action |
 
-### 🧩 Exploded View
-`Gripper Assembly Exploded Figure.JPG`  
-Exploded drawing with BOM callouts and overall dimensions.
+> ✅ All images are located inside the `mechanical gripper/` folder for easy reference and preview in the GitHub file browser.
 
-### 🎞️ Motion Study
-`Motion_Study.gif`  
-Simulated animation showing the synchronized actuation of the gripper jaws via servo-driven gears.
+## 🗂️ CAD Files (not shown here)
 
-## 🗂️ Drawings & CAD Files
-
-Each part has its own 2D drawing for manufacturing or documentation purposes:
-
-- `Part1_GR.SLDDRW` – Link Arm Drawing  
-- `Part2_GR.SLDDRW` – Gear Drawing  
-- `Part3_GR.SLDDRW` – Side Frame Drawing  
-- `Part4_5_6_8_GR.SLDDRW` – Combined drawing for base, back plate, spacers, and left jaw  
-- `Part7_GR.SLDDRW` – Finger/Pad Drawing  
-- `Gripper Assembly.SLDASM` – Main assembly  
-- `Gripper Assembly Figure.JPG` – Full render  
-- `Gripper Assembly Exploded Figure.JPG` – Annotated exploded view  
-- `Motion_Study.gif` – Animated motion simulation  
-
-> *File formats such as `.SLDPRT`, `.SLDDRW`, `.STEP`, and `.GIF` can be included depending on repository size limits or export preferences.*
+- All design parts and assemblies are made in **SOLIDWORKS**
+- File types: `.SLDPRT`, `.SLDASM`, `.SLDDRW`, `.GIF`
+- Can be exported as `.STEP` or `.IGES` for cross-platform compatibility
 
 ## 🧑‍💼 Author
 
