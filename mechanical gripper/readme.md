@@ -11,16 +11,6 @@ This repository contains the design and motion study of a compact mechanical gri
 - Exploded view with detailed bill of materials (BOM)
 - Simulated motion study exported as a GIF
 
-## 📁 Folder Structure
-
-Gripper-Assembly/
-├── images/
-│   ├── Gripper_Assembly.JPG              # Final rendered assembly
-│   ├── Gripper_Assembly_Figure.JPG       # Exploded view with BOM and dimensions
-│   └── Motion_Study.gif                  # Motion simulation
-├── README.md                             # Project documentation
-└── [CAD Files]                           # Optional: .SLDPRT, .SLDASM, .STEP
-
 ## 📐 Bill of Materials & Part Descriptions
 
 | Item No. | Part Name               | Qty | Description |
@@ -39,19 +29,33 @@ Gripper-Assembly/
 
 ## 📸 Visuals
 
-**✅ Final Assembly:**
+### ✅ Final Assembly
+`Gripper Assembly Figure.JPG`  
+Rendered view of the complete gripper design in closed-jaw position.
 
-![Gripper Assembly](images/Gripper Assembly Figure.JPG)
+### 🧩 Exploded View
+`Gripper Assembly Exploded Figure.JPG`  
+Exploded drawing with BOM callouts and overall dimensions.
 
-**🧩 Exploded View with BOM:**
+### 🎞️ Motion Study
+`Motion_Study.gif`  
+Simulated animation showing the synchronized actuation of the gripper jaws via servo-driven gears.
 
-![Exploded View](images/Gripper_Assembly_Figure.JPG)
+## 🗂️ Drawings & CAD Files
 
-**🎞️ Motion Study (GIF):**
+Each part has its own 2D drawing for manufacturing or documentation purposes:
 
-![Motion Study](images/Motion_Study.gif)
+- `Part1_GR.SLDDRW` – Link Arm Drawing  
+- `Part2_GR.SLDDRW` – Gear Drawing  
+- `Part3_GR.SLDDRW` – Side Frame Drawing  
+- `Part4_5_6_8_GR.SLDDRW` – Combined drawing for base, back plate, spacers, and left jaw  
+- `Part7_GR.SLDDRW` – Finger/Pad Drawing  
+- `Gripper Assembly.SLDASM` – Main assembly  
+- `Gripper Assembly Figure.JPG` – Full render  
+- `Gripper Assembly Exploded Figure.JPG` – Annotated exploded view  
+- `Motion_Study.gif` – Animated motion simulation  
 
-The motion study demonstrates the synchronized rotation of the gears driving the jaws to open and close with precision. It visually validates the kinematic chain under servo input.
+> *File formats such as `.SLDPRT`, `.SLDDRW`, `.STEP`, and `.GIF` can be included depending on repository size limits or export preferences.*
 
 ## 🧑‍💼 Author
 
